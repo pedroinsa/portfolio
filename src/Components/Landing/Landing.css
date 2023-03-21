@@ -1,0 +1,39 @@
+.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(155, 30, 30, 0);
+  margin: 20px 30px 30px;
+  padding-bottom: 20px;
+  color: rgb(68, 28, 28);
+  font-size: 1.25rem;
+  color: white;
+  border-radius: 3%;
+}
+.landing img {
+  width: 50%;
+  height: 450px;
+  border-radius: 6%;
+}
+.landing button {
+  background-color: rgb(68, 28, 28);
+  color: white;
+  width: 200%;
+  border-radius: 10%;
+  font-size: 1.2rem;
+  box-shadow: 0.5rem 0.5rem black;
+  border: 2px solid black;
+  margin-top: 6%;
+}
+.landing button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  background-color: rgba(68, 28, 28, 0.7);
+  color: white;
+}
+.landing a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 12%;
+}

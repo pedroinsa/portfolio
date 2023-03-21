@@ -1,0 +1,27 @@
+.navbar-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(155, 30, 30,0.8);
+  font-size: 1.5rem;
+  width: 100%;
+}
+.navbar-div a {
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid grey; */
+}
+.navbar-div a:hover {
+  color: gray;
+}
+
+@media (max-width: 540px) {
+  .navbar-div {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 280px) {
+  .navbar-div {
+    flex-direction: column;
+  }
+}

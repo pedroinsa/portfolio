@@ -1,0 +1,45 @@
+.skills-contenedor {
+  margin-top: 0.5%;
+  background-color: rgb(119, 118, 118);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+  width: 50%;
+  height: 20%;
+}
+.skills-contenedor h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0%;
+}
+.skills {
+  width: 95%;
+}
+.skills img {
+  width: 10%;
+}
+.swiper {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+@media (max-width: 280px) {
+  .skills-contenedor h2 {
+    display: none;
+  }
+}
+#swiper_id{
+  margin-top: 0%;
+}

@@ -1,0 +1,30 @@
+.parrafo {
+  background-color: rgb(20, 20, 80);
+  color: white;
+  width: 70%;
+  opacity: 0.8;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards-home {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 4%;
+  margin-top: 0px;
+}
+
+@media (max-width: 729px) {
+  .cards-home {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 912px) {
+  .cards-home {
+    width: 90%;
+  }
+}

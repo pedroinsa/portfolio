@@ -1,0 +1,48 @@
+.form-contact {
+  background-color: rgba(155, 30, 30, 0.8);
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-bottom: 3%;
+  padding-top: 3%;
+  border: 4px solid grey;
+  color: white;
+  border-radius: 3%;
+}
+.submit-button h3 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1rem;
+}
+.submit-button button {
+  background-color: grey;
+  color: white;
+  border: 5%;
+  box-shadow: 5px 5px black;
+}
+.submit-button button:hover {
+  background-color: rgb(8, 8, 55);
+  transform: scale(1.1);
+}
+.input-div {
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+@media (max-width: 640px) {
+  .form-contact input {
+    width: 80%;
+  }
+  .form-contact textarea {
+    width: 80%;
+  }
+}
+@media (max-width: 809px) {
+  .input-div {
+    display: flex;
+    flex-direction: column;
+  }
+}

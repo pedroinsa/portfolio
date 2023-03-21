@@ -1,0 +1,36 @@
+.about-contenedor {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4%;
+}
+
+.about-texto {
+  background-color: rgb(155, 30, 30);
+  color: white;
+  width: 30%;
+  border: 9px solid grey;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-imagen img {
+  width: 75%;
+  border: 9px solid grey;
+}
+.about-imagen {
+  display: flex;
+  justify-content: end;
+}
+@media (max-width: 768px) {
+  .about-contenedor {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-texto {
+    width: 80%;
+  }
+  .about-imagen {
+    justify-content: center;
+  }
+  .about-imagen img {
+    width: 80%;
+  }
+}
