@@ -39,11 +39,12 @@
 }
 @media(max-width: 760px){
   .landing{
-    width: 150%;
+    width: 100%;
     margin: 0px;
   }
   .landing img{
-    width: 100%;
+    margin-top: 30%;
+    width: 90%;
     height: 70%;
   }
 }
