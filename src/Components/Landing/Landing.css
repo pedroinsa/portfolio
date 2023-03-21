@@ -12,7 +12,7 @@
 }
 .landing img {
   width: 50%;
-  height: 450px;
+  height: 80%;
   border-radius: 6%;
 }
 .landing button {
@@ -36,4 +36,14 @@
   justify-content: center;
   text-decoration: none;
   width: 12%;
+}
+@media(max-width: 760px){
+  .landing{
+    width: 150%;
+    margin: 0px;
+  }
+  .landing img{
+    width: 100%;
+    height: 70%;
+  }
 }
