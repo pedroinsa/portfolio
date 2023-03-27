@@ -1,4 +1,5 @@
 import React from 'react';
+import { useSelector } from "react-redux"
 import Navbar from '../Navbar/Navbar';
 import ActionAreaCard from '../Card-presentation/CardHome';
 import Skills from '../Skills/Skills';
@@ -10,7 +11,7 @@ import image3 from '../../certificado.jpeg'
 import './Home.css'
 
 function Home (props){
-const cards = [{image: image1, title: "Pedro Insausti", description: " Soy Fullstack developer y bienvenidos a mi portfolio, donde podran conocer algunas de mis skills, mis proyectos y parte de mi vida personal."},{title: "¿Qué significa Henry? ", image: image3, description:"Henry es un bootcamp que me dio herramientas, conocimientos y me intrudujo al mundo IT haciendome conocer una comunidad extraordinaria con una gran calidad humana. Significó un gran paso en mi vida "}]  
+const cards = useSelector(state => state.cards)
 return(
     <div className='home'>
         <Navbar/>
