@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
-import image from '../../about.jpeg'
+import image from '../../about2.jpg'
 import './About.css'
 
 function About (props){
