@@ -5,7 +5,7 @@ import './Carrousel.css'
 
 export default function Carrousel({image1, image2, image3}) {
     return (
-        <Carousel>
+        <Carousel className="carr">
           <Carousel.Item>
             <img
               className="d-block w-100"

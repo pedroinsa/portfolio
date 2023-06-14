@@ -1,7 +1,8 @@
 .project-card {
   display: flex;
   flex-direction: column;
-  width: 36%;
+  width: 35%;
+  height: 510px;
   background-color: white;
   align-items: center;
   border: 9px solid grey;
@@ -23,7 +24,7 @@
   font-size: 0.8rem;
   box-shadow: 0.5rem 0.1rem black;
   border: 2px solid black;
-  margin-top: 6%;
+  margin-top: 1px;
 }
 .buttonProject:hover {
   cursor: pointer;
@@ -36,8 +37,13 @@
   justify-content: space-evenly;
   width: 30%;
 }
-@media (max-width: 540px) {
+@media (max-width: 568px) {
   .project-card {
     width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .project-card {
+  height: 570px;
   }
 }

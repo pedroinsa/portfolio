@@ -7,12 +7,13 @@ export default function Project1({name, description, image1, image2, image3, git
   return (
     <div className='project-card'>
       <h2>{name}</h2>
-      <p>{description}</p>     
-      <Carrousel image1={image1} image2={image2} image3={image3}/>
+      <p>{description}</p>   
       <div className='buttons-card'>
          {demo?<a href='https://www.google.com.ar/'><button className='buttonProject'>Demo</button></a> : null}
        <a href={github}> <button className='buttonProject'>Github</button></a>
-      </div>
+      </div>  
+      <Carrousel image1={image1} image2={image2} image3={image3}/>
+     
   </div> 
   )
 }
